@@ -38,27 +38,27 @@ function draw()
     {
         circle(rigthWristX,rigthWristY,20);
 
-        if(rigthWristY > 0 && rigthWristY <= 100)
+        if(rightWristY > 0 && rightWristY <= 100)
         {
             document.getElementById("speed").innerHTML = "Velocidade = 0.5";
             song.rate(0.5);
         }  
-        if(rigthWristY > 100 && rigthWristY <= 200)
+        if(rightWristY > 100 && rightWristY <= 200)
         {
             document.getElementById("speed").innerHTML = "Velocidade = 1";
             song.rate(1);
         }   
-        if(rigthWristY > 200 && rigthWristY <= 300)
+        if(rightWristY > 200 && rightWristY<= 300)
         {
             document.getElementById("speed").innerHTML = "Velocidade = 1.5";
             song.rate(1.5);
         }  
-        if(rigthWristY > 300 && rigthWristY <= 400)
+        if(rightWristY > 300 && rightWristY <= 400)
         {
             document.getElementById("speed").innerHTML = "Velocidade = 2";
             song.rate(2);
         }   
-        if(rigthWristY > 400)
+        if(rightWristY > 400)
         {
             document.getElementById("speed").innerHTML = "Velocidade 2.5";
             song.rate(2.5);
