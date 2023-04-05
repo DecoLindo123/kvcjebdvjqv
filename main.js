@@ -36,7 +36,7 @@ function draw()
     }
     if(rigthScore > 0.2)
     {
-        circle(rigthWristX,rigthWristY,20);
+        circle(rightWristX, rightWristY, 20);
 
         if(rightWristY > 0 && rightWristY <= 100)
         {
